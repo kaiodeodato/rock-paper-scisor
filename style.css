@@ -1,0 +1,83 @@
+#results{
+    width: 100px;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    top: 160px;
+    left: -20px;
+    rotate: -20deg;
+    font-size: 120px;
+    justify-content: center;
+
+}
+span#win{
+    position: absolute;
+    display: none;
+    color: rgb(17, 201, 0);
+}
+span#lose{
+    position: absolute;
+    display: none;
+    color: red;
+}
+span#tie{
+    position: absolute;
+    display: none;
+    color: rgb(231, 235, 11);
+}
+#geral{
+    top: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#options{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+#bot_options{
+    bottom: 60px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+}
+
+img.options{
+    cursor: pointer;
+    width: 100px;
+    transition: .3s;
+}
+img.options:hover{
+    scale: 1.1;
+}
+#line{
+    left: 10px;
+    position: relative;
+    background-color: rgb(179, 179, 179);
+    height: 200px;
+    width: 2px;
+}
+img.bot{
+    position: absolute;
+    width: 130px;
+}
+
+img#paper{
+    display: none;
+}
+img#rock{
+    display: none;
+}
+img#scisor{
+    display: none;
+    width: 100px;
+}

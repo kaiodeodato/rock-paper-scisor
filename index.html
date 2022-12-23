@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="pt-BR">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<title>javascript puro</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="results">
+		<span class="results" id="win">WIN</span>
+		<span class="results" id="lose">LOSE</span>
+		<span class="results" id="tie">TIE</span>
+	</div>
+	<div id="geral">
+		<div id="options">
+			<img class="options" onclick="check('paper')" src="paper.png">
+			<img class="options" onclick="check('rock')"  src="rock.png">
+			<img class="options" onclick="check('scisor')"  src="scisor.png">
+		</div>
+		<span id="line"></span>
+		<div id="bot_options">
+			<img id="paper" class="bot" src="paper.png">
+			<img id="rock" class="bot" src="rock.png">
+			<img id="scisor" class="bot" src="scisor.png">
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+ 
